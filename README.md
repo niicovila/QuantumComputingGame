@@ -7,7 +7,7 @@ The game starts with the creation of a qubit with a random state |psi> = alpha|0
 
 # Running the Game
 To run the code it is necessary to install node-js as well as the modules that are automatically included after creating a React project. Then, you need to open the command line and go to the game directory. Once there, you can run 'npm start'.
-
+ Below are some instructions they add in every React App.
 
 # Getting Started with Create React App
 
