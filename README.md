@@ -2,11 +2,11 @@
 
 This Game uses some basic quantum computing principles such as superposition of qubits and measurements of quantum circuits. The game was originally intended to be a React App but for some reason Qiskit-js wasn't working in my computer. As an alternative, I coded the game idea in python, as an interactive notebook. The implementation in React was done using just random number generators while the implementation in Python is made using actual quantum simulators.
 
-#Game Explanation:
-The game starts with the creation of a qubit with a random state |/psi> = /alpha|0> + /beta|1>
+# Game Explanation:
+The game starts with the creation of a qubit with a random state |psi> = alpha|0> + beta|1>. Then, the user is allowed to bet a certain amount of coins, starting with 10 of them. The user will need to make measurements to be able to guess what the value of |alpha|^2 could be. Once the user is ready to make the guess, he can just write it in the game. The guess will be accepted with an error of 0.1. The lower amount of measurements he takes to guess, the more coins he can win, while being also more risky. If the guess is wrong, the user will lose the coins.
 
-#Running the Game
-
+# Running the Game
+To run the code it is necessary to install node-js as well as the modules that are automatically included after creating a React project. Then, you need to open the command line and go to the game directory. Once there, you can run 'npm start'.
 
 
 # Getting Started with Create React App
