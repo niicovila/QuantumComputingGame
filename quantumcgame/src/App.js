@@ -144,7 +144,7 @@ function App() {
       <div className="measurement-container">
         {result.map((measurement, index) => (
           <div key={index} className="measurement-item">
-            Measurement {index + 1}: {result}
+            Measurement {index + 1}: {measurement}
           </div>
         ))}
       </div>
