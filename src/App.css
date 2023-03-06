@@ -1,0 +1,131 @@
+body {
+  background-color: #ADD8E6;
+  color: black;
+  font-family: helvetica-bold;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 30px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.measurement-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-bottom: 20px;
+  background-color: #FAAB28;
+  border: none;
+  color: white;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.measurement-container:hover {
+  background-color: #3e8e41; /* Dark green */
+}
+.measure-button {
+  width: 120px; /* set a fixed width */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2ECC71;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.measure-button:hover {
+  background-color: #27AE60;
+}
+.guess-button {
+  width: 120px; /* set a fixed width */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2ECC71;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guess-button:hover {
+  background-color: #27AE60;
+}
+
+.measurement-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.electron {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  animation: move-electron 3s linear infinite;
+}
+
+@keyframes move-electron {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+
+.guess-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #FAAB28;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 5px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.guess-container:hover {
+  background-color: #3e8e41; /* Dark green */
+}
+
